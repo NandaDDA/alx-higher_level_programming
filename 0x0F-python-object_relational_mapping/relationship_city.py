@@ -11,6 +11,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
+
 class City(Base):
     """
     inherits from Base (imported from model_state)
